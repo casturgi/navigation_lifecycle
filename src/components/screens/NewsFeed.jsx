@@ -19,6 +19,9 @@ class NewsFeed extends Component {
         <div>
           <NavBar />
           <div style={{ margin: '10px' }}>
+            // uncomment MessageForm and MessageList to change over to chat functionality and remove or comment out  <CreateUserNote /> and <UserNotesList />
+            // <MessageForm />
+            // <MessageList />
             <CreateUserNote />
             <UserNotesList />
           </div>
